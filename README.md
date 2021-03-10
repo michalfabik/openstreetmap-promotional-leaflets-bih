@@ -1,6 +1,6 @@
 # OpenStreetMap Promotional Leaflets
 
-![photo](https://raw.github.com/gravitystorm/openstreetmap-promotional-leaflets/master/leaflets.jpg)
+![photo](https://raw.github.com/michalfabik/openstreetmap-promotional-leaflets-bih/master/leaflets.jpg)
 
 ![photo](https://raw.github.com/gravitystorm/openstreetmap-promotional-leaflets/master/leaflets2.jpg)
 
