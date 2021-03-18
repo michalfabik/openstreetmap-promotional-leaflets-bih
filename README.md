@@ -4,35 +4,24 @@
 
 ![photo](https://raw.github.com/gravitystorm/openstreetmap-promotional-leaflets/master/leaflets2.jpg)
 
-This repository contains the source files for an OSM flyer (in English) that was
-originally created by Frederik Ramm <frederik@remote.org> and
-contributors from the talk-de list in January 2008, and subsequently
-updated, translated, re-updated and re-translated over the
-years. This version was made by Andy Allan <andy@gravitystorm.co.uk>
+Ovaj repozitorij sadrži izvorne datoteke za OSM letak (na engleskom jeziku) koji je originalno dizajnirao Frederik Ramm frederik@remote.org i saradnici sa talk-de liste u januaru 2008. godine, a potom je letak updejtan, preveden, ponovo updejtan i ponovo preveden tokom godina. Ovu verziju napravio je Andy Allan andy@gravitystorm.co.uk
 
-All contents are in the public domain except for those derived from OSM
-which are CC BY-SA, and except for non-OSM logos.
+Sav sadržaj je u javnoj domeni, osim onih izvedenih iz OSM-a koji su CC BY-SA, i osim logotipa koji nisu OSM.
 
-The flyer is designed for DIN A7 as the final size (105mm high and
-74mm wide), with 8 pages in a zig-zag ("Leporello") fold, and full
-colour printing.
+Letak je dizajniran za DIN A7 u finalnoj veličini (105 mm visina i 74 mm širina), sa 8 stranica savijen u cik-cak ("Leporello") i štampanjem u boji.
 
-The flyer was made with Inkscape; osmflyer1.svg and osmflyer2.svg
-are the front and reverse side.
+Letak je napravljen pomoću Inkscape-a; osmflyer1.svg i osmflyer2.svg su prednja i zadnja strana.
 
-Some notes in case you want to re-create something yourself:
+Neke bilješke u slučaju da želite nešto sami ponovo dizajnirati:
 
-* `berlin-background.png` is basically a 4-year-old Osmarender rendering
-of Berlin, using a standard stylesheet but with all captions removed,
-and the resulting PNG file processed with the Gimp roughly like this:
+* `berlin-background.png` je u osnovi četverogodišnji Osmarender-ov prikaz Berlina, koji koristi standardnu tabelu stilova, sa svim uklonjenim natpisima, a rezultirajuća PNG datoteka je obrađena u Gimpu otprilike ovako:
 
-  First convert to grayscale, then use `colors->curves` to narrow down
-contrast, then convert back to RGB, then use `colors->colorify` to give
-it a nice hue.
+* Prvo pretvorite u grayscale(sivo), a zatim upotrijebite `colors->curves` da biste smanjili 
+kontrast, zatim pretvorite natrag u RGB, a zatim upotrijebite `colors-> colorify` da biste dobili lijepu nijansu
 
-* The cover globe image was made with Marble, the technique is roughly
-outlined here: http://wiki.openstreetmap.org/wiki/Marble
+* Slika zemljine kugle napravljena je Marble-om, tehnika je otprilike
+objašnjena ovdje: http://wiki.openstreetmap.org/wiki/Marble
 
-* To generate the high-res png maps, use the following commands
+* Da biste generirali png mape visoke rezolucije, upotrijebite sljedeće komande
 `~/src/nik2img/nik2img.py -d 2479 1356 -z 14 -c -0.128056 51.508056 --scale-factor 3 ~/src/openstreetmap-carto/osm-carto.xml london.png`
 `~/src/nik2img/nik2img.py -d 1974 2902 -z 15 -c -3.19864 55.95 --scale-factor 3 ~/src/openstreetmap-carto/osm-carto.xml edinburgh.png`
