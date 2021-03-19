@@ -1,8 +1,8 @@
 # OpenStreetMap Promotional Leaflets
 
-![photo](https://raw.github.com/michalfabik/openstreetmap-promotional-leaflets-bih/master/leaflets.jpg)
+![photo](https://raw.github.com/osm-ba/openstreetmap-promotional-leaflets-bih/master/leaflets.jpg)
 
-![photo](https://raw.github.com/gravitystorm/openstreetmap-promotional-leaflets/master/leaflets2.jpg)
+![photo](https://raw.github.com/osm-ba/openstreetmap-promotional-leaflets-bih/master/leaflets2.jpg)
 
 Ovaj repozitorij sadrži izvorne datoteke za OSM letak (na engleskom jeziku) koji je originalno dizajnirao Frederik Ramm frederik@remote.org i saradnici sa talk-de liste u januaru 2008. godine, a potom je letak updejtan, preveden, ponovo updejtan i ponovo preveden tokom godina. Ovu verziju napravio je Andy Allan andy@gravitystorm.co.uk
 
